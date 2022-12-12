@@ -1,0 +1,147 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+/* services section css */
+
+.card-body>p {
+    height: 50px;
+}
+
+.btn {
+    margin-top: 85px;
+}
+
+.servicesText.card {
+    height: 310px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: rgb(71, 88, 157);
+}
+
+.servicesText:hover {
+    border: 1px solid rgb(71, 88, 157);
+}
+
+.navbarScroll {
+    background-color: rgb(42, 42, 42);
+}
+
+/* nav bar words */
+.navbar>div {
+    font-weight: bold;
+}
+
+.nav-link,
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: rgb(71, 88, 157) !important;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+/* center the text without image */
+.hello,
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* spacing on all sections */
+#about {
+    margin-top: 8rem;
+}
+
+#projects,
+#contact {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* hello part */
+.name {
+    font-size: 144px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.hello>h1 {
+    margin-top: 20px;
+}
+
+/* about me */
+.about-me {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    padding-bottom: 24px;
+}
+
+
+/* icons */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover {
+    color: rgb(71, 88, 157);
+}
+
+/* contact */
+.contactContent {
+    background-color: rgb(64, 63, 63);
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.location {
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.map {
+    margin-left: 20px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    width: 60vw;
+}
+
+/* footer */
+#footer {
+    background: #444444;
+    height: 50px;
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+    color: whitesmoke;
+    padding: 20px;
+}
