@@ -60,11 +60,15 @@
 
 /* center the text without image */
 .hello,
-.row {
+.row,
+.skills {
     display: flex;
     justify-content: center;
 }
-
+ .skills>i {
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+ }
 /* spacing on all sections */
 #about {
     margin-top: 8rem;
